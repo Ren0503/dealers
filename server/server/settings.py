@@ -125,4 +125,4 @@ MEDIA_ROOT = BASE_DIR / "media/"
 
 REST_FRAMEWORK = {"DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"]}
 
-GRAPHENE = {"SCHEMA": "store.schema.schema"}  # Where your Graphene schema lives
+GRAPHENE = {"SCHEMA": "core.schema.schema"}  # Where your Graphene schema lives
